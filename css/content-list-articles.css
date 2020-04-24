@@ -1,0 +1,105 @@
+body {
+    background: #e8e8e8;
+    background: #fff;
+}
+
+section {
+	width: 100%;
+	overflow: hidden;
+}
+
+section .conteiner {
+    margin-bottom: 20px;
+    padding: 20px 0;
+	width: 100%;
+	overflow: hidden;
+}
+
+@media screen and (min-width: 430px) {
+    section .conteiner {
+        display: grid;
+        padding: 10px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 10px;
+        grid-row-gap: 20px;
+    }
+    
+    .artilce {
+        margin: 0;
+        width: auto;
+    }
+}
+
+@media screen and (min-width: 560px) {
+    section .conteiner {
+        padding: 20px;
+    }
+}
+
+@media (min-width: 670px) {
+	section .conteiner {
+		width: 100%;
+	    grid-template-columns: repeat(3, 1fr);
+        grid-column-gap: 20px;
+	    grid-row-gap: 20px;
+	}
+}
+
+@media screen and (min-width: 900px) {
+    section .conteiner {
+        grid-column-gap: 40px;
+	    grid-row-gap: 40px;
+    }
+    
+    .article {
+        padding: 10px;
+    }
+}
+
+@media (min-width: 1200px) {
+	section .conteiner {
+		width: 1270px;
+		margin: 0 auto;
+        padding: 50px;
+	}
+}
+
+.article {
+	padding: 0;
+	background: #F5F5F5;
+    box-shadow: 0 0 25px #BEBEBE;
+    transition: .2s;
+    position: relative;
+}
+
+@media (max-width: 430px) {
+    .article {
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+}
+
+.article:hover {
+    box-shadow: 10px 10px 40px #808080;
+}
+
+.article img {
+	width: 100%
+}
+
+.article h4 {
+    padding-left: 10px;
+    margin-bottom: 4px;
+    font-size: 20px;
+}
+
+.article p {
+    padding: 10px;
+}
+
+.h2-list_articles {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 30px;
+}

@@ -1,0 +1,370 @@
+.second-place {
+	margin: 0 auto;
+	position: relative;
+	width: 100%;
+	background: url();
+	background-repeat: no-repeat;
+	background-position: -150px;
+	margin-top: 33px;
+}
+
+.group-list-articles {
+	height: auto;  /* 370px изначальная высота */
+	margin-top: 40px;
+	width: 100%;
+}
+
+.group-places-h2 {
+	margin-top: 5px;
+}
+
+.third-place-content {
+	display: block;
+}
+
+#third-list-element-content, #first-list-element-content {
+	/*box-sizing: content-box;*/
+	background: white;
+	/*height: auto;*/
+	padding-bottom: 10px;
+}
+
+@media screen and (max-width: 1100px) {
+	.group-list-articles {
+		width: 100%;
+	}
+	.third-place-content {
+		margin-left: 0%;
+	}
+}
+
+.desc-bromo {
+	background: #fff;
+}
+
+.desc-bromo img {
+	width: 100%;
+}
+
+
+@media screen and (min-width: 500px) and (max-width: 700px) {
+	.desc-bromo {
+		width: 80%;
+		margin-left: 10%;
+	}
+
+	.about-content p {
+		padding: 0;
+		width: 80%;
+		margin-left: 10%;
+		margin-top: 5px !important;
+	}
+}
+
+/*@media screen and (min-width: 700px) {
+	.desc-bromo img {
+		width:  50%;
+		margin-top: 15px;
+		margin-right: 20px;
+		margin-bottom: 80px;
+	}
+
+	.about-content p {
+		padding: 0;
+		margin-top: 40px;
+		text-align: left;
+	}
+
+	.about-content h1, .about-content span {
+		text-align: left !important;
+	}
+}*/
+
+@media screen and (min-width: 915px) {
+	.first-place {
+		display: flex;
+		min-height: 290px !important;
+		width: 824.4px !important;
+		margin-left: auto !important;
+	}
+
+	.first-place img {
+		width: 50% !important;
+		display: block;
+		margin-left: auto;
+	}
+
+	.first-place .desc-batu {
+		width: 40%;
+		/*float: right;*/
+	}
+
+	.desc-bromo img {
+		margin-top: 0px;
+		margin-right: 0;
+		margin-left: 80px;
+		width: 50% !important;
+	}
+
+	.circle {
+		top: -115% !important;
+	}
+
+	.circle h2 {
+		display: inline-block;
+		margin-top: -18px;
+	}
+
+	#third-list-element-content .circle, #first-list-element-content .circle {
+		padding: 180px 350px 250px 30px !important;
+		left: 120% !important;
+	}
+
+	.desc-bromo {
+		margin: 0 auto;
+		background: transparent !important;
+		width: 824.4px;
+	}
+
+	.desc-bromo-text p {
+		line-height: 2.5 !important;
+	}
+
+	.second-place-content > .desc-bromo img, .fourth-place-content > .desc-bromo img {
+		float: right;
+		margin-right: 80px;
+	}
+
+	.second-place-content .circle, .fourth-place-content .circle {
+		left: -290.78px;
+		padding: 180px 30px 250px 350px !important;
+	}
+
+	#third-list-element-content, #first-list-element-content {
+		text-align: right;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	
+	.desc-bromo {
+		width: 1000px !important;
+	}
+
+	.desc-bromo img {
+		width: 50% !important;
+		margin-right: 170px !important;
+	}
+
+	.second-place-content .circle, .fourth-place-content .circle {
+		left: -290.78px;
+		padding: 100px 40px 0 360px !important;
+	}
+
+	#third-list-element-content img, #first-list-element-content img {
+		margin-left: 130px;
+	}
+
+	#third-list-element-content .circle, #first-list-element-content .circle {
+		padding: 180px 350px 300px 30px !important;
+		left: 130% !important;
+	}
+
+	.circle h2, .circle p {
+		position: relative;
+		top: -60px;
+	}
+}
+
+.desc-bromo-text:before {
+	content: "";
+	display: block;
+	border: solid transparent;
+	position: absolute;   
+	top: -27px;
+	left: 50%;
+	border-bottom-color: #fff;
+	border-width: 9px;
+	margin-left: -18px;
+}
+
+.desc-bromo-text {
+	box-sizing: border-box;
+	/*margin-top: 20px;*/
+	padding: 10px;
+	padding-top: 0;
+	position: relative;
+}
+
+.desc-bromo-text p {
+	font-size: 16px;
+	line-height: 35px;
+	color: black;
+	font-weight: normal;
+}
+
+.desc-bromo-text p span {
+	font-weight: 700;
+	color: black;
+}
+
+
+.bromo_two {
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	margin-top: 33px;
+/*	min-width: 300px;
+	width: 471px;*/
+	width: 100%;
+	height: 361px;
+	display: none;
+}
+
+.bromo_two:after {
+	content: '';
+	display: none;
+	display: block;
+	width: 154px;
+	height: 154px;
+	background-color: #fff;
+	background-position: 50% 40%;
+	background-repeat: no-repeat;
+	border-radius: 50%;
+	margin: auto;
+	transform: translateY(67%);
+}
+
+@media screen and (min-width: 500px) and (max-width: 700px) {
+	.group-places {
+		width: 100%;
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	.desc-bromo {
+		height: 100%;
+	}
+
+	.header-articles-h2  {
+		margin-top: -10px;
+	}
+}
+
+@media screen and (min-width: 700px) {
+	.first-place {
+		height: 200px;
+		min-height: 220px;
+		margin-top: 0;
+		margin-bottom: 20px;
+	}
+
+	.first-place img {
+		width: 50%;
+	}
+
+	.desc-batu::before {
+		left: 0;
+		bottom: 45%;
+		border-right-color: #fff;
+		border-bottom-color: transparent;
+		margin-left: -18px;
+	}
+
+	.desc-batu {
+		box-sizing: border-box;
+		width: 50%;
+		height: 100%;
+		float: right;
+		background: #fff;
+		margin-top: 0;
+		padding-bottom: 5px;
+	}
+
+	.desc-batu-text p {
+		/*line-height: 1.8;*/
+	}
+
+	.about {
+		min-height: 100px;
+	}
+
+	.about-content p {
+		line-height: 1.8;
+		margin-top: 5px;
+	}
+
+	.group-list-articles, .first-place {
+		width: 100%;
+		float: left;
+		margin-top: 0;
+	}
+
+	.desc-bromo {
+		height: 200px;
+		overflow: hidden;
+		margin-bottom: 30px;
+	}
+
+	.desc-bromo img {
+		height: 100%;
+		width: 50%;
+		margin-right: 0;
+		float: left;
+	}
+
+	#third-list-element-content, #first-list-element-content {
+		padding-bottom: 0;
+	}
+
+	.desc-bromo-text {
+		height: 196px;
+		width: 50%;
+		z-index: 1;
+		position: relative;
+		left: -40px;
+		margin-top: 15px;
+	}
+
+	.desc-bromo-text:before {
+		display: none;
+	}
+
+	.circle {
+		box-sizing: border-box;
+		height: 700px;
+		width: 700px;
+		background: white;
+		border-radius: 50%;
+		position: relative;
+		right: 0;
+		left: 105%;
+		top: -140%;
+		padding: 400px;
+		padding-left: 30px;
+		padding-top: 250px;
+	}
+
+	.desc-bromo-text p {
+		z-index: 2;
+		line-height: 1.8;
+	}
+
+	.desc-bromo:before {
+		display: none;
+	}
+}
+
+@media screen and (min-width: 760px) {
+	.first-place {
+		min-height: 240px;
+	}
+
+	.desc-bromo {
+		height: auto;
+	}
+
+	.desc-bromo-text p {
+		line-height: 2;
+	}	
+}
+

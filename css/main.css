@@ -1,0 +1,127 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	color: #000;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Lato', sans-serif;
+	font-family: 'Bellota Text', cursive;
+	background: #f2fefe;
+	font-size: 16px;
+}
+
+@media screen and (max-width: 500px) {
+	.quote {
+		display: block;
+		float: left;
+		width: 90% !important;
+		margin: 8px 4% 10px 5%;
+	}
+}
+
+.conteiner {
+	width: 100%;
+	overflow: hidden;
+}
+
+
+@media (min-width: 670px) {
+	.conteiner {
+		width: 90%;
+		margin: 0 auto;
+	}
+}
+
+@media (min-width: 1200px) {
+	.conteiner {
+		width: 1170px;
+		margin: 0 auto;
+		padding-left: 0;
+		padding-right: 0;
+	}
+}
+
+.flex {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+
+.color {
+	color: red;
+}
+
+.none {
+	display: none;
+}
+
+.special-span {
+	color: #01a2a6;
+}
+
+b {
+    color: #000a75;
+    font-size: 110%;
+}
+
+.quote {
+	width: 25%;
+	background: linear-gradient(to bottom right, #2eddb9, #15b0be);
+	border-radius: 20px;
+	float: right;
+	position: relative;
+	padding: 10px;
+	margin-left: 5px;
+}
+
+.quote p {
+	margin-top: 20px;
+	text-align: center;
+}
+
+.design-quote {
+	user-select: none;
+	font-size: 150px;
+	height: 40px;
+	color: white;
+	text-align: center;
+	line-height: 1;
+	margin-top: -20px;
+	position: relative;
+}
+
+.design-quote:before, .design-quote:after {
+	content: '';
+	display: block;
+	width: 30%;
+	height: 5px;
+	background: #fff;
+	position: absolute;
+	bottom: 0;
+}
+
+.design-quote:before {
+	right: 0;
+}
+
+@media screen and (max-width: 900px) {
+	.quote {
+		width: 35%;
+	}
+}
+
+@media screen and (max-width: 650px) {
+	.quote {
+		width: 50%;
+	}
+}
+
+
+

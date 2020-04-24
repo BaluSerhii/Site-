@@ -1,0 +1,62 @@
+.article .conteiner {
+	width: 100%;
+	overflow: hidden;
+}
+
+.article .conteiner {
+	padding-top: 20px;
+}
+
+
+@media (min-width: 670px) {
+	.article .conteiner {
+		width: 90%;
+		margin: 0 auto;
+        padding-top: 40px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.article .conteiner {
+		width: 1000px;
+	}
+}
+
+.text-article {
+    padding: 10px;
+}
+
+
+.article h1 {
+	font-size: 40px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.article p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+@media screen and (min-width: 900px) {
+    .text-article > p {
+        width: 75%;
+    }
+    
+    .quote {
+        margin-top: -70px;
+    }
+}
+
+.article-footer {
+    border-top: 1px solid #909090;
+    padding-top: 20px;
+    margin-top: 10px;
+}
+
+.article-footer p {
+    margin-top: 0;
+    font-size: 20px;
+    font-style: italic;
+    color: #909090;
+}
